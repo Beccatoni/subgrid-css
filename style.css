@@ -61,6 +61,9 @@ footer {
   grid-template-rows: repeat(4, auto);
   min-height: 31.25rem;
   margin-top: 10.688rem;
+  padding: 0 15px 0 15px;
+  /* align-items: center;
+  justify-items: center; */
 }
 
 button {
@@ -108,4 +111,11 @@ button:hover {
 }
 button {
     color: var(--luxury-background);
+    border-radius: 40px;
+}
+
+article {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-row: 4;
 }
