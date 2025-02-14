@@ -71,12 +71,17 @@ button {
   background: var(--font-color);
   border: none;
   padding: 0.5rem;
+  border-radius: 40px;
+width: 100%;
+box-sizing: border-box;
+height: 2.5rem; /* Ensure all buttons have the same height */
 }
 button:hover {
   cursor: pointer;
   background: none;
   color: var(--font-color);
   border: 1px solid var(--font-color);
+  
 }
 
 /* All */
@@ -125,7 +130,6 @@ button:hover {
 }
 .luxury button {
     color: var(--luxury-background);
-    border-radius: 40px;
 }
 
 .luxury button:hover {
@@ -141,3 +145,4 @@ article {
     grid-row: 4;
     /* grid-template-rows: subgrid;  doesn't work on chrome neither on firefox*/
 }
+/* Ensure all buttons have the same width */
