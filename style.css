@@ -96,6 +96,13 @@ button:hover {
   color: var(--sedans-background);
 }
 
+.sedans button:hover {
+    cursor: pointer;
+    background: none;
+    color: var(--font-color);
+    border: 1px solid var(--font-color);
+  }
+
 /* SUV */
 .suvs {
     background-color: var(--suv-background);
@@ -103,19 +110,34 @@ button:hover {
 .suvs button {
     color: var(--suv-background);
 }
+.suvs button:hover {
+    cursor: pointer;
+    background: none;
+    color: var(--font-color);
+    border: 1px solid var(--font-color);
+  }
+
 
 /* Luxury */
 .luxury {
     background-color: var(--luxury-background);
     border-radius: 0 10px 10px 0px;
 }
-button {
+.luxury button {
     color: var(--luxury-background);
     border-radius: 40px;
 }
+
+.luxury button:hover {
+    cursor: pointer;
+    background: none;
+    color: var(--font-color);
+    border: 1px solid var(--font-color);
+  }
 
 article {
     display: grid;
     grid-template-rows: repeat(4, auto);
     grid-row: 4;
+    /* grid-template-rows: subgrid;  doesn't work on chrome neither on firefox*/
 }
